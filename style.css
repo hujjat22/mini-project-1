@@ -122,3 +122,26 @@ footer {
     text-align: center;
     color: white;
 }
+@media (max-width: 600px) {
+
+    header {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .card {
+        width: 80%;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
