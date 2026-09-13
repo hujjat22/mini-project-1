@@ -178,7 +178,22 @@ footer {
         max-width: 100%;
         height: auto;
     }
+    .about-content {
+        flex-direction: column;   
+        text-align: center;
+        gap: 20px;
+    }
+
+    .about-text p {
+        text-align: center;
+    }
+
+    .about-content img {
+        width: 140px;
+        height: 140px;
+    }
 }
+
 .card ul {
     display: flex;
     flex-direction: row;
