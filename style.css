@@ -31,7 +31,7 @@ a {
 }
 
 a:hover {
-    color: rgb(132, 67, 20);
+    color: rgb(41, 23, 10);
     text-decoration: underline;
 }
 .card {
@@ -44,21 +44,36 @@ a:hover {
     border: 2px solid lightseagreen;  
 }
 h2{
+    color:aqua;
     text-align:center;
     font-size:larger;
     font-weight:bold;
 }
-img {
-    
-    width:400px;
-    height:auto;
-    border-radius: 10px;
-    display: block;
-    margin:auto;
-    object-fit:cover;
-    margin-bottom:20px;
+.about-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
 
 }
+.about-content img {
+    
+    width:150px;
+    height: 150px;
+    border-radius: 35px;
+    object-fit:cover;
+    margin-bottom:0px;
+
+}
+.about-content p {
+    flex: 1;
+    margin: 0;
+    text-align: justify;
+    line-height: 1.6;
+    font-weight: normal;
+    font-size: small;
+}
+
 p {
     text-align: justify;
     line-height:1.6;
@@ -66,8 +81,9 @@ p {
     font-size:small;   
 }
 h3 {
+    color:rgb(127, 153, 187);
     font-size: medium;
-    font-weight: bold;
+    font-weight: bolder;
     margin-bottom: 10px;
 }
 form {
@@ -109,7 +125,6 @@ button:hover {
 }
 .email a {
     color: aqua;
-    text-decoration: underline;
     
 }
 .email a:hover {
@@ -144,4 +159,23 @@ footer {
         max-width: 100%;
         height: auto;
     }
+}
+.card ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1px;
+    padding: 0;
+}
+.card li {
+    
+    width: 10%;
+    height: 30px;
+    background-color: rgb(31, 53, 53);
+    border: 2px solid lightseagreen;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
