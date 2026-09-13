@@ -54,6 +54,7 @@ h2{
     flex-direction: row;
     align-items: center;
     gap: 30px;
+    text-align: left;
 
 }
 .about-content img {
@@ -63,15 +64,33 @@ h2{
     border-radius: 35px;
     object-fit:cover;
     margin-bottom:0px;
+    border: 2px solid lightseagreen;
 
 }
 .about-content p {
     flex: 1;
     margin: 0;
-    text-align: justify;
+    text-align: left;
     line-height: 1.6;
     font-weight: normal;
     font-size: small;
+}
+.about-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text p {
+    margin: 0 0 10px 0;
+    text-align: left;
+    line-height: 1.6;
+    font-size: 0.95rem;
 }
 
 p {
